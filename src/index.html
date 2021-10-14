@@ -1,0 +1,50 @@
+<!--
+* File: index.html
+* Author: Hermányi Gergely
+* Copyright: 2021, Hermányi Gergely 
+* Date: 2021-10-07
+* Github: https://github.com/TheRealGerriii
+* Group: SZOFT II/N
+*-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">    <title>Document</title>
+    <title>Gyepes</title>
+</head>
+<body>
+
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">Névjegy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="github.html">github</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+  <div class="container">
+    <h1>Haver gyepkalkulátora</h1>
+      <div class="mb-3">
+        <label for="diameter" class="form-label">Átmérő</label>
+        <input type="text" class="form-control" id="diameter" placeholder="Átmérő">
+      </div>
+
+      <div class="mb-3">
+        <label for="result" class="form-label">Eredmény</label>
+        <input type="text" class="form-control" id="result" disabled>
+      </div>
+      <button type="Button" class="btn btn-warning" id="Button">Számol</button>
+  </div>
+    <script src=app.js></script>
+</body>
+</html>
